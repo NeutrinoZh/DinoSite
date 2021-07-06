@@ -1,0 +1,99 @@
+
+:root {
+    background-color: rgb(166, 250, 200);
+}
+
+@media screen and (max-width: 2560px) {
+    body {
+        background-color: aliceblue;
+        margin: 0% auto;
+        width: 70%;
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: aliceblue;
+        margin: 0% auto;
+        width: 95%;
+        height: fit-content;
+    }
+}
+
+.title {
+    display: block;
+    width: 50%;
+    margin: 1% auto 5% auto;
+    filter: invert();
+}
+
+.slider {
+    display: table;
+    height: fit-content;
+}
+
+.slider img {
+    width: 100%;
+    display: table-cell;
+    border: 1px solid black;
+}
+
+.slider .button {
+    display: table-cell;
+    vertical-align: middle;
+
+    font-size: 100px;
+    line-height: 0px;
+    user-select: none;
+
+    width: 4%;
+    background-color: rgb(207, 231, 252);
+}
+
+.slider .button:hover {
+    background-color: rgb(224, 238, 250);;
+}
+
+.description {
+    margin: 3%;
+}
+
+.description p {
+    font-size: large;
+}
+
+.download {
+    margin: 3%;
+}
+
+.download .button {
+    background-color: rgb(252, 141, 233);
+    border-radius: 20%;
+    
+    padding: 1%;
+    font-size: 2.5vw;
+    text-align: center;
+    user-select: none;
+
+    width: 20%;
+    height: 3vw;
+    float: right;
+    margin: 9% 5% 0% 0%;
+}
+
+.download .button:hover {
+    background-color: rgb(255, 160, 239);;
+}
+
+.download ol {
+    font-size: x-large;
+}
+
+footer {
+    height: fit-content;
+    color: rgb(78, 78, 78);
+    background-color: rgb(203, 210, 216);
+    font-size: larger;
+    padding: 1% 5%;
+}
