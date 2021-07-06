@@ -55,6 +55,11 @@
     background-color: rgb(224, 238, 250);;
 }
 
+.youtube {
+    width: fit-content;
+    margin: 2% auto;
+}
+
 .description {
     margin: 3%;
 }
